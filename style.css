@@ -8,30 +8,37 @@ body {
     font-family: 'Yomogi', cursive;
 }
 
+main {
+    margin: auto;
+    max-width: 600px;
+    padding: 1rem;
+}
+
 textarea {
-    width: 50%;
+    width: 100%;
     height: 15vh;
     display: block;
 }
 
 .txt-output {
     font-size: larger;
+    margin-bottom: 1rem
 }
 
 #output {
     border: 1px solid black;
-    width: 50%;
-    height: 15vh;
+    width: 100%;
+    height: 10vh;
     display: block;
 }
 
-.div-center {
+/* .div-center {
     margin-right: 25%;
     margin-left: 25%;
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding: 1rem;
-}
+} */
 
 .txtarea-marg {
     margin-top: 3rem;
@@ -41,6 +48,7 @@ textarea {
     border: none;
     font-size: larger;
     padding: 1rem 2rem;
+    margin: 1rem 0rem;
     background-color: #F2C94C;
     font-family: 'Yomogi', cursive;
 }
